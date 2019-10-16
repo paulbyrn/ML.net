@@ -1,0 +1,207 @@
+#############################################################################
+#
+# Airlift project-specific
+#
+Airlift/ClientApp/AngularResults/
+Airlift/ClientApp/coverage/
+Airlift.sln.DotSettings.user
+Airlift.Installer/ComponentsGenerated.wxs
+Airlift/appsettings.LocalDev.json
+packages/
+# Outputs of ./BuildScripts/BuildAirlift.ps1
+build/
+# Outputs of ./BuildScripts/BuildInstaller.ps1
+InstallerPackages/Installers/
+
+#############################################################################
+#
+# Visual Studio/.NET Core
+#
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Oo]ut/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Visual Studio project upgrade
+UpgradeLog.htm
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Node.js Tools for Visual Studio
+node_modules/
+
+# OpenCover UI analysis results
+OpenCover/
+AngularResults/
+coverage/
+
+#############################################################################
+#
+# xUnit
+#
+TestResults/
+
+#############################################################################
+#
+# NPM
+#
+package-lock.json
+npm-shrinkwrap.json
+dist/
+
+#############################################################################
+#
+# SonarQube
+#
+.sonarqube/
+**/.sonarqube/
+
+#############################################################################
+#
+# Visual Studio Diagnostic Hub Reports
+#
+*.diagsession
+
+#############################################################################
+#
+# WiX Installer
+#
+*.wixproj.user
+*.wixobj
+*.wixpdb
+
+# Windows Installer files
+*.exe
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+#############################################################################
+#
+# Ctags
+#
+tags
+tags.*
+
+#############################################################################
+#
+# Visual Studio Code
+#
+**/.vscode/
+.vscode/*
+
+#############################################################################
+#
+# Others 
+#
+.idea/
+Resources.zh-Hant.resx
+Resources.zh.resx
+
+
+#############################################################################
+#
+# End of file
+#
