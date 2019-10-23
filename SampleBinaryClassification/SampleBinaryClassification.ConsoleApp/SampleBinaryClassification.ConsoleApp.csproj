@@ -10,4 +10,9 @@
   <ItemGroup>
     <ProjectReference Include="..\SampleBinaryClassification.Model\SampleBinaryClassification.Model.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="data\yelp_labelled.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
